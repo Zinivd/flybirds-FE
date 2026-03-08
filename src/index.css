@@ -1,68 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Jost:ital,wght@0,100..900;1,100..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Common CSS */
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+    /* Colors */
+    --main: #E9047C;
+    --sub: #521233;
+    --dark: #292933;
+    --primary: #000;
+    --secondary: #fff;
+    --text-primary: #151515;
+    --text-secondary: #666666;
+    --text-tertiary: #ADADAD;
+    --text-quarterly: #3C4242;
+    --border: #E2E2E2;
+    --input-bg: #F6F6F6;
+    --green: #4F9A15;
+    --red: #DC2626;
+    --yellow: #FFBC02;
+    --purple: #8A1DEF;
+    --blue: #008ECC;
+    --radium: #65FDF4;
+    --brown: #362526;
+    --gray: #3C4242;
+    --box-shadow: 0 0 0.875rem 0 rgba(33, 37, 41, 0.05);
+    --transition: 0.5s ease-in-out;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+    /* Fonts */
+    --primary-font: "Public Sans", sans-serif;
+    --secondary-font: "DM Sans", sans-serif;
+    --tertiary-font: "Jost", sans-serif;
+    --fw-ms: 300;
+    --fw-sm: 400;
+    --fw-md: 500;
+    --fw-lg: 600;
+    --fw-xl: 700;
+    --fw-xxl: 800;
+    --fw-xxxl: 900;
 }
