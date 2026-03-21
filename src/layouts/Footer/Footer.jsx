@@ -6,6 +6,137 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <>
+      {/* Disclaimer */}
+      <div className="disclaimer">
+        <div className="disclaimer-div">
+          <i class="fas fa-circle-exclamation"></i>
+          <div className="disclaimer-content">
+            <h5 className="mb-3">Flybirds Leggings</h5>
+            <h6 className="mb-0">
+              At Flybirds, we pride ourselves on delivering unparalleled quality at a price that suits your budget. Our commitment to excellence has made us the biggest seller in Tirupur, earning the trust and loyalty of our customers.
+            </h6>
+          </div>
+        </div>
+      </div>
+
+      <div className="shop-all">
+        <div className="shop-all-div">
+          <h3 className="mb-3">Shop All</h3>
+          <ul className="nav ps-0 flex-row column-gap-1">
+            <li className="nav-item mb-1">
+              <a href="" className="nav-link">
+                Ankle Leggings
+              </a>
+            </li>
+            <li className="nav-item mb-1">
+              <a className="nav-link">|</a>
+            </li>
+            <li className="nav-item mb-1">
+              <a href="" className="nav-link">
+                Full Length Leggings
+              </a>
+            </li>
+            <li className="nav-item mb-1">
+              <a className="nav-link">|</a>
+            </li>
+            <li className="nav-item mb-1">
+              <a href="" className="nav-link">
+                Shimmer Leggings
+              </a>
+            </li>
+            <li className="nav-item mb-1">
+              <a className="nav-link">|</a>
+            </li>
+            <li className="nav-item mb-1">
+              <a href="" className="nav-link">
+                Capri Leggings
+              </a>
+            </li>
+            <li className="nav-item mb-1">
+              <a className="nav-link">|</a>
+            </li>
+            <li className="nav-item mb-1">
+              <a href="" className="nav-link">
+                Denim Leggings
+              </a>
+            </li>
+            <li className="nav-item mb-1">
+              <a className="nav-link">|</a>
+            </li>
+            <li className="nav-item mb-1">
+              <a href="" className="nav-link">
+                Kurti Pant
+              </a>
+            </li>
+            <li className="nav-item mb-1">
+              <a className="nav-link">|</a>
+            </li>
+            <li className="nav-item mb-1">
+              <a href="" className="nav-link">
+                Palazzo Pant
+              </a>
+            </li>
+            <li className="nav-item mb-1">
+              <a className="nav-link">|</a>
+            </li>
+            <li className="nav-item mb-1">
+              <a href="" className="nav-link">
+                Metallic Pant
+              </a>
+            </li>
+            <li className="nav-item mb-1">
+              <a className="nav-link">|</a>
+            </li>
+            <li className="nav-item mb-1">
+              <a href="" className="nav-link">
+                Yoga Shorts
+              </a>
+            </li>
+            <li className="nav-item mb-1">
+              <a className="nav-link">|</a>
+            </li>
+            <li className="nav-item mb-1">
+              <a href="" className="nav-link">
+                Saree Shaper
+              </a>
+            </li>
+            <li className="nav-item mb-1">
+              <a className="nav-link">|</a>
+            </li>
+            <li className="nav-item mb-1">
+              <a href="" className="nav-link">
+                Pyjama Set
+              </a>
+            </li>
+            <li className="nav-item mb-1">
+              <a className="nav-link">|</a>
+            </li>
+            <li className="nav-item mb-1">
+              <a href="" className="nav-link">
+                Capri Set
+              </a>
+            </li>
+            <li className="nav-item mb-1">
+              <a className="nav-link">|</a>
+            </li>
+            <li className="nav-item mb-1">
+              <a href="" className="nav-link">
+                Shimmer Dupatta
+              </a>
+            </li>
+            <li className="nav-item mb-1">
+              <a className="nav-link">|</a>
+            </li>
+            <li className="nav-item mb-1">
+              <a href="" className="nav-link">
+                Nazmin Dupatta
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      {/* Footer */}
       <footer className="footer">
         <div className="footer-main">
           <div className="footer-top">
@@ -199,16 +330,20 @@ const Footer = () => {
               </div>
               <div className="footer-bottom-content w-100">
                 <h6 className="mb-1">Email ID</h6>
-                <h5 className="mb-0">info@flybirdsleggings.com</h5>
+                <a href="mailto: info@flybirdsleggings.com">
+                  <h5 className="mb-0">info@flybirdsleggings.com</h5>
+                </a>
               </div>
             </div>
             <div className="footer-item mb-2">
               <div className="footer-bottom-icon">
-                <i className="bx bx-phone-forwarding text-white"/>
+                <i className="bx bx-phone-forwarding text-white" />
               </div>
               <div className="footer-bottom-content w-100">
                 <h6 className="mb-1">Phone No</h6>
+                <a href="tel:+918825522322">
                 <h5 className="mb-0">+91 88255 22322</h5>
+                </a>
               </div>
             </div>
             <div className="footer-item mb-2">
@@ -217,7 +352,12 @@ const Footer = () => {
               </div>
               <div className="footer-bottom-content">
                 <h6 className="mb-1">Address</h6>
-                <h5 className="mb-0">423B , 4th St, Raja Nagar, Poyampalayam, Tirupur, Tamil Nadu 641603</h5>
+                <a href="">
+                  <h5 className="mb-0">
+                    423 B , 4th St, Raja Nagar, Poyampalayam, Tirupur, Tamil Nadu
+                    641603
+                  </h5>
+                </a>
               </div>
             </div>
           </div>

@@ -1,0 +1,39 @@
+/* Category */
+.category-main {
+    background: #FAF1F8;
+    padding: 40px 0px;
+}
+
+.category-div {
+    width: 90%;
+    margin: auto;
+}
+
+/* Product */
+.product-main {
+    background: var(--secondary);
+    padding: 40px 0px;
+}
+
+.product-div {
+    width: 90%;
+    margin: auto;
+}
+
+.product-tabs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Collections */
+.collection-main {
+    background: var(--secondary);
+    padding: 40px 0px;
+}
+
+.collection-div {
+    width: 90%;
+    margin: auto;
+}

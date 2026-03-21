@@ -7,11 +7,15 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 
 // CSS
-import "../public/assets/css/Buttons.css"
+import "../public/assets/css/Buttons.css";
+import "../public/assets/css/Heading.css";
 
 // Layouts
 import Navbar from "./layouts/Navbar/Navbar";
 import Footer from "./layouts/Footer/Footer";
+
+// Pages
+import Home from "./pages/Home/Home.jsx";
 
 function App() {
   return (
@@ -24,7 +28,9 @@ function App() {
             autoClose={2000}
           />
           <Navbar />
-          <Routes></Routes>
+          <Routes>
+            <Route path="/" element={<Home />} />
+          </Routes>
           <Footer />
         </Router>
       </div>

@@ -37,6 +37,72 @@
     color: var(--secondary);
 }
 
+/* Disclaimer */
+.disclaimer {
+    padding: 30px 0px;
+}
+
+.disclaimer-div {
+    width: 90%;
+    margin: auto;
+    background: #292933 url('../../../public/assets/images/Ellipse.png') no-repeat top right;
+    background-size: 125px;
+    padding: 25px;
+    border-radius: 10px;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    gap: 20px;
+}
+
+.disclaimer-div i {
+    color: var(--secondary);
+    font-size: 24px;
+}
+
+.disclaimer-content h5 {
+    color: var(--secondary);
+    font-weight: var(--fw-xl);
+}
+
+.disclaimer-content h6 {
+    color: var(--secondary);
+    font-weight: var(--fw-sm);
+    line-height: 23px;
+}
+
+/* Shop All */
+.shop-all {
+    background: #202122;
+    padding: 20px 0px;
+}
+
+.shop-all-div {
+    width: 90%;
+    margin: auto;
+}
+
+.shop-all-div h3 {
+    color: var(--secondary);
+    font-weight: var(--fw-xl);
+}
+
+.shop-all-div ul li {
+    list-style-type: none;
+}
+
+.shop-all-div ul li a {
+    color: var(--secondary);
+    font-weight: var(--fw-sm);
+    text-decoration: none;
+    transition: var(--transition);
+    padding-left: 0px !important;
+}
+
+.shop-all-div ul li a:hover {
+    color: var(--main);
+}
+
 /* Footer */
 .footer {
     background: linear-gradient(270deg, #E9047C 0%, #44122C 100%);
@@ -157,16 +223,26 @@
     .footer-bottom-content h6,
     .footer .nav-item a,
     .footer .nav-item,
-    .footer h6 {
+    .footer h6,
+    .shop-all-div ul li a  {
         font-size: 14px;
     }
 
-    .footer-bottom-content h5 {
+    .footer-bottom-content h5,
+    .disclaimer-content h6{
         font-size: 16px !important;
     }
 
     .footer-bottom .footer-item {
         grid-template-columns: 13% 87%;
+    }
+
+    .disclaimer-content h5 {
+        font-size: 20px;
+    }
+
+    .shop-all-div h3 {
+        font-size: 25px;
     }
 
 }
@@ -202,7 +278,9 @@
 
     .footer .nav-item a,
     .footer .nav-item,
-    .footer h6 {
+    .footer h6,
+    .disclaimer-content h6,
+    .shop-all-div ul li a {
         font-size: 12px;
     }
 
@@ -210,9 +288,17 @@
         font-size: 12px !important;
     }
 
+    .disclaimer-content h5 {
+        font-size: 16px;
+    }
+
     .footer-bottom .footer-item {
         grid-template-columns: 17% 83%;
         column-gap: 10px;
+    }
+    
+    .shop-all-div h3 {
+        font-size: 22px;
     }
 
     #brands li a,
@@ -257,8 +343,14 @@
 
     .footer .nav-item a,
     .footer .nav-item,
-    .footer h6 {
+    .footer h6,
+    .disclaimer-content h6,
+    .shop-all-div ul li a {
         font-size: 12px;
+    }
+
+    .disclaimer-content h5 {
+        font-size: 14px;
     }
 
     .footer-bottom-content h5 {
@@ -272,6 +364,10 @@
     .footer-bottom .footer-item {
         grid-template-columns: 12% 88%;
         column-gap: 10px;
+    }
+    
+    .shop-all-div h3 {
+        font-size: 22px;
     }
 
     #brands li a,

@@ -5,7 +5,7 @@
 }
 
 .navbar {
-    width: 98%;
+    width: 100%;
     position: sticky !important;
     top: 0px;
     z-index: 999;
@@ -17,7 +17,7 @@
 }
 
 .navbar .container-fluid {
-    width: 98%;
+    width: 96%;
     display: block;
     margin-inline: auto;
     padding: 5px 0px;
