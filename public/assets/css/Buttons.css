@@ -72,6 +72,40 @@
     gap: 5px;
 }
 
+.buy-btn {
+    background: var(--secondary);
+    color: var(--text-primary);
+    border: 2px solid var(--main);
+    padding: 7px 20px;
+    border-radius: 5px;
+    font-weight: var(--fw-md);
+    transition: all var(--transition);
+}
+
+.cart-btn {
+    background: var(--main);
+    color: var(--secondary);
+    border: 2px solid var(--main);
+    padding: 7px 20px;
+    border-radius: 5px;
+    font-weight: var(--fw-md);
+    transition: all var(--transition);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.form-btn {
+    background: var(--main);
+    color: var(--secondary);
+    border: 2px solid var(--main);
+    padding: 6px 20px;
+    border-radius: 5px;
+    font-weight: var(--fw-md);
+    transition: all var(--transition);
+}
+
 /* Hover Effects */
 .nav-btn:hover {
     background: var(--secondary);
@@ -89,34 +123,51 @@
 }
 
 .tab-btn:hover,
-.tab-btn.active {
+.tab-btn.active,
+.buy-btn:hover {
     background: var(--main);
     color: var(--secondary);
     border: 2px solid var(--main);
 }
 
+.form-btn:hover,
 .add-cart-btn:hover,
-.add-cart-btn-2:hover {
+.add-cart-btn-2:hover,
+.cart-btn:hover {
     background: var(--secondary);
     color: var(--text-primary);
 }
 
 @media screen and (min-width: 767px) {
+
+    .buy-btn,
+    .cart-btn {
+        font-size: 16px;
+    }
+
     .nav-btn,
     .subscribe-btn,
     .tab-btn,
     .add-cart-btn,
-    .add-cart-btn-2 {
+    .add-cart-btn-2,
+    .form-btn {
         font-size: 14px;
     }
 }
 
 @media screen and (max-width: 767px) {
+
+    .buy-btn,
+    .cart-btn {
+        font-size: 12px;
+    }
+
     .nav-btn,
     .subscribe-btn,
     .tab-btn,
     .add-cart-btn,
-    .add-cart-btn-2 {
+    .add-cart-btn-2,
+    .form-btn {
         font-size: 12px;
     }
 }

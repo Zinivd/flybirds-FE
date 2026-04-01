@@ -21,7 +21,7 @@
     text-align: center;
 }
 
-.category-grid {
+.home-category-grid {
     display: grid;
     align-items: start;
     justify-content: space-between;
@@ -36,7 +36,7 @@
         font-size: 16px;
     }
 
-    .category-grid {
+    .home-category-grid {
         grid-template-columns: repeat(6, 15%);
     }
 }
@@ -50,7 +50,7 @@
         font-size: 14px;
     }
 
-    .category-grid {
+    .home-category-grid {
         grid-template-columns: repeat(5, 15%);
     }
 }
@@ -64,7 +64,7 @@
         font-size: 13px;
     }
 
-    .category-grid {
+    .home-category-grid {
         grid-template-columns: repeat(2, 48%);
     }
 }
