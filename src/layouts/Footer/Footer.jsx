@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import Logo from "../../../public/assets/images/Logo-White.png";
 import "./Footer.css";
 
@@ -32,9 +32,9 @@ const Footer = () => {
               <a className="nav-link">|</a>
             </li>
             <li className="nav-item mb-1">
-              <a href="" className="nav-link">
+              <Link to="/all-products" className="nav-link">
                 Full Length Leggings
-              </a>
+              </Link>
             </li>
             <li className="nav-item mb-1">
               <a className="nav-link">|</a>

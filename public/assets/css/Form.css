@@ -16,11 +16,11 @@
 
 .form-control,
 .form-select {
-    background: var(--secondary) !important;
+    background-color: var(--secondary) !important;
     color: var(--text-primary);
     border: 2px solid var(--border);
     border-radius: 5px;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: var(--fw-md);
     padding: 6px 10px;
     transition: all var(--transition);

@@ -106,6 +106,39 @@
     transition: all var(--transition);
 }
 
+.filter-btn {
+    background-color: transparent;
+    color: var(--text-secondary);
+    font-size: 12px;
+    padding: 0px;
+    border: 2px solid transparent;
+    width: 100%;
+    font-weight: var(--fw-md);
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 85% 15%;
+    justify-content: space-between;
+    align-items: center;
+    transition: var(--transition);
+}
+
+.size-btn {
+    background-color: var(--secondary);
+    color: var(--text-primary);
+    font-weight: var(--fw-md);
+    border: 2px solid var(--border);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all var(--transition);
+}
+
+.size-btn:hover,
+.size-btn.selected {
+    background-color: var(--main);
+    color: var(--secondary);
+    border: 2px solid var(--main);
+}
+
 /* Hover Effects */
 .nav-btn:hover {
     background: var(--secondary);
@@ -153,6 +186,12 @@
     .form-btn {
         font-size: 14px;
     }
+
+    .size-btn {
+        height: 50px;
+        width: 50px;
+        font-size: 14px;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -168,6 +207,12 @@
     .add-cart-btn,
     .add-cart-btn-2,
     .form-btn {
+        font-size: 12px;
+    }
+
+    .size-btn {
+        height: 35px;
+        width: 35px;
         font-size: 12px;
     }
 }

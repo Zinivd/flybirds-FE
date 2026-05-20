@@ -18,6 +18,7 @@ import Footer from "./layouts/Footer/Footer";
 // Pages
 import Home from "./pages/Home/Home.jsx";
 import ProductDetails from "./pages/ProductDetails/ProductDetails.jsx";
+import AllProducts from "./pages/AllProducts/AllProducts.jsx";
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/product-details/1" element={<ProductDetails />} />
+            <Route path="/all-products" element={<AllProducts />} />
           </Routes>
           <Footer />
         </Router>
